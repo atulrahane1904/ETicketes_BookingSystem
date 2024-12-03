@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace ETicketesBooking.Entities
 {
-    internal class Producer
+    public class Producer
     {
+        public int ProducerId { get; set; }
+
+        public string ProducerName { get; set; }
+
+        public string Bio { get; set; }
+
+        public string ProfilePicURL { get; set; }
+
     }
 }

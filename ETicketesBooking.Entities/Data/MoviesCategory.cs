@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace ETicketesBooking.Entities.Data
 {
-    internal class MoviesCategory
+    public enum MoviesCategory
     {
+        Action,
+        Romance,
+        Comedy,
+        Horror,
+        Documentry,
+        Biography,
+        Drama,
+        Adult
+
     }
 }

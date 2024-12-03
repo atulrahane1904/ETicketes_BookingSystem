@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace ETicketesBooking.Entities
 {
-    internal class Movies
+    public class Movies
     {
+        public int MoviesId { get; set; }
+
+        public string  MovieTitle { get; set; }
+
+        public  string Description { get; set; }
+
+        public string LogoURL { get; set; }
     }
 }
