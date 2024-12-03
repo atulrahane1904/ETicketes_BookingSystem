@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35521.163 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETickets_Booking", "ETickets_Booking\ETickets_Booking.csproj", "{9C98AFDB-AB78-4626-AD9F-6EE0E2686671}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicketesBooking.Entities", "ETicketesBooking.Entities\ETicketesBooking.Entities.csproj", "{3BBE3B67-95D3-4CE6-86F7-C5DF347B7A42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9C98AFDB-AB78-4626-AD9F-6EE0E2686671}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C98AFDB-AB78-4626-AD9F-6EE0E2686671}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C98AFDB-AB78-4626-AD9F-6EE0E2686671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBE3B67-95D3-4CE6-86F7-C5DF347B7A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBE3B67-95D3-4CE6-86F7-C5DF347B7A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBE3B67-95D3-4CE6-86F7-C5DF347B7A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBE3B67-95D3-4CE6-86F7-C5DF347B7A42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
